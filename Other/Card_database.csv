@@ -1,0 +1,65 @@
+Couleur,E?,Nom,Description originale
+0,,La Griffe de l'Aigle,Drainez 1(C) OU 3(C) à moins que le rival ne vous paye 1(S).
+0,X,Main du Djinn,Drainez 2(C) à moins que votre rival ne vous paye 1(S).
+0,,Patte du Démon,Drainez 3(C) si vous avez moins de (S) que votre rival.
+0,,Dague de Glace,Drainez 1(C) ou 3(C) si vous défaussez une carte.
+0,X,Patte du Tigre,Drainez 1(C).
+0,,Tempête Acide,Drainez jusqu'à 4(C). Payez un (S) pour chacune.
+0,,Langue de Serpent,Drainez 3(C) et le rival pioche 1 carte.
+0,,Orbe d'Eradication,Drainez 4(C) si vous donnez 2(S) à votre rival.
+0,,Bête de Feu,Drainez 1(C) ou 4(C) si vous défaussez 1 carte rouge.
+0,,Boule de Feu,Drainez 1(C) pour chaque carte dans la main du rival.
+0,,Malédiction Mineure,Drainez 1(C) et piochez 1 carte.
+0,,Coup de Foudre,Drainez 3(C) si vous avez moins de (C) que votre rival.
+0,,Morsure à l'Âme,Drainez 1(C) ou 3(C) si vous payez 1(S).
+0,,Cyclone,Drainez jusqu'à 5(C). Défaussez une carte pour chaque.
+0,,L'Epée de l'Ombre,Drainez 2(C).
+1,X,Sort de Protection,Gagnez 2(C) et votre rival gagne 1(S).
+1,,Sang de la Terre,Gagnez jusqu'à 5(C). Défaussez 1 carte pour chaque.
+1,,Coeur de Pierre,Gagnez jusqu'à 4(C). Payez 1(S) pour chaque.
+1,,Arbre de Vie,Gagnez 1(C) pour chaque carte dans la main de votre rival.
+1,,Ange de la Vie,Gagnez 3(C) et votre rival gagne 1(C).
+1,,Eau de la Vie,Gagnez 2(C).
+1,,Eau Bénite,Gagnez 1(C) et piochez 1 carte.
+1,,Rétablissement,Gagnez 3(C) si vous avez moins (C) que votre rival.
+1,,Main de la Guérison,Gagnez 1(C) ou 3(C) si vous payez 1(S).
+1,X,Mot de Garde,Gagnez 2(C) si vous avez moins (C) que votre rival.
+1,,Ranimer,Gagnez 1(C) et 1(S).
+1,,Séraphin de la Lumière,Gagnez 1(C) ou 4(C) si vous défaussez une carte jaune.
+1,,Rejet du Poison,Gagnez 3(C) si votre rival contrôle le rouge.
+1,X,Bénédiction du Prêtre,Gagnez 1(C).
+1,,Purification,Gagnez 1(C) et drainez 1(C).
+2,X,Sort de Séduction,Gagnez 2(S) et votre rival en gagne 1(S).
+2,,Portail Spirituel,Gagnez 1(S) et gagnez 1(C).
+2,,Jarre Magique,Gagnez 1(S) ou 2 si vous avez moins de (S) que votre rival.
+2,,Marchez dans l'ombre,Gagnez 1(S) ou 2 si vous avez moins d'(C) que votre rival.
+2,X,Doigts de Lumière,Gagnez 1(S).
+2,,Poing de la Fortune,Gagnez 3(S) si votre rival a drainé (C) lors du dernier tour.
+2,,Piège de Cristal,Gagnez 1(S) et drainez 1(C).
+2,,Tempête Saphir,Perdez jusqu'à 5(C). Gagnez 1(S) pour chaque.
+2,,Œil de Saphir,Gagnez 1(S) ou 3(S) si vous avez moins de 5(S).
+2,,Fontaine de Cristal,Gagnez 4(S) si vous contrôlez seulement le bleu.
+2,,Saphir de Convocation,Gagnez 1(S) ou 4(S) si vous défaussez une carte bleue.
+2,,Main des Voleurs,Volez 1(S) à votre rival.
+2,,Morsure du Gobelin,Gagnez 4(S) à moins que votre rival ne perde 2(C).
+2,,Porte du Djinn,Gagnez 1(S) ou 3 si vous défaussez 1 carte.
+2,,Pierre Philosophale,Gagnez 1(S) et piochez 1 carte.
+3,X,Acquisition,"Choisissez 1 : chaque magicien gagne 2(C), 2(S) ou 2 cartes."
+3,,Pierre Runique,Piochez 2 cartes.
+3,,Brouillard de l'Esprit,Piochez 3 cartes et défaussez-en 2.
+3,,Cape des rêves,Utiliez une carte contrôlée par votre rival.
+3,X,Fatigue,"Choisissez 1 : chaque magicien perd 2(C), 2(S) ou 2 cartes."
+3,,Brouiller,"Jouez une carte de votre main, utilisez-la et ensuite défaussez-la."
+3,,Miroir,Tournez une carte pour quelle vous fasse face.
+3,,Désordre,Défaussez jusqu'à 3 cartes. Gagnez 1(C) et drainez 1(C) pour chacune.
+3,,Bafouiller,"Gagnez 1(C), drainez 1(C) et gagnez 1(S)."
+3,,Se Renforcer,Utilisez une autre carte que vous contrôlez deux fois.
+3,,Métamorphe,Utilisez toutes les autres cartes du dessus que vous contrôlez.
+3,X,Affaiblir,Piochez 2 cartes à moins que votre rival en défausse 1.
+3,,Patte de Singe,"Piochez 1 carte, et ensuite jouez une carte de votre main."
+3,,Or du Fou,Défaussez la première carte d'une des autres piles.
+3,X,Cocktail Toxique,Piochez 1 carte.
+,,,
+,,Cartes additionnelles,à vérifier
+0,,Glaive of doom,Défaussez 4 cartes de la ligne centrale. Drainez 1(C) pour chaque couleur différente parmi les cartes défaussées.
+1,,Fontaine de ouf,Défaussez 4 cartes de la ligne centrale. Gagnez 1(C) pour chaque couleur différente parmi les cartes défaussées.
