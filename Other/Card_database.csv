@@ -61,5 +61,7 @@ Couleur,E?,Nom,Description originale
 3,X,Cocktail Toxique,Piochez 1 carte.
 ,,,
 ,,Cartes additionnelles,à vérifier
-0,,Glaive of doom,Défaussez 4 cartes de la ligne centrale. Drainez 1(C) pour chaque couleur différente parmi les cartes défaussées.
-1,,Fontaine de ouf,Défaussez 4 cartes de la ligne centrale. Gagnez 1(C) pour chaque couleur différente parmi les cartes défaussées.
+0,,Glaive prismatique,Défaussez 4 cartes de la ligne centrale. Drainez 1(C) pour chaque couleur différente parmi les cartes défaussées.
+1,,Fontaine Arc-en-ciel,Défaussez 4 cartes de la ligne centrale. Gagnez 1(C) pour chaque couleur différente parmi les cartes défaussées.
+2,,Porte Astrale,Gagnez 4(S). Perdez 1(S) pour chaque (C) que votre rival défausse.
+3,,Oeil du Djinn,Piochez 3 cartes. Jouez-en 1 et défaussez les 2 autres.
