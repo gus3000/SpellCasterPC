@@ -19,8 +19,8 @@ public class Card : MonoBehaviour
     }
 }
 
-
-public class CardModel : MonoBehaviour
+[System.Serializable]
+public class CardModel
 {
     //global
     enum ColorType { Combat, Conjuring, Healing, Sorcery };
