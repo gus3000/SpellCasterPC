@@ -17,7 +17,7 @@ public class GUIHelper
                 sb.Append('\n');
                 nbChars = 0;
             }
-            else
+            else if(nbChars != 0)
                 sb.Append(' ');
 
             sb.Append(parts[i]);
