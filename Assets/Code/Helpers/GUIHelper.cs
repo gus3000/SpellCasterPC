@@ -6,7 +6,7 @@ public class GUIHelper
     public static string WordWrap(string s, int lineLength)
     {
         StringBuilder sb = new StringBuilder();
-        string[] parts = s.Split(' ');
+        string[] parts = s.Split(new char[] { }); //default split = any whitespace -> ' ', '\n',...
 
         int nbChars = 0;
         for (int i = 0; i < parts.Length; i++)

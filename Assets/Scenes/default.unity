@@ -109,6 +109,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2316488, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
+      propertyPath: m_Materials.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 432310, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -139,7 +143,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 432310, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 146318, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
       propertyPath: m_Name
@@ -153,6 +157,25 @@ Prefab:
       propertyPath: m_CharacterSize
       value: .00499999989
       objectReference: {fileID: 0}
+    - target: {fileID: 10278202, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
+      propertyPath: m_Text
+      value: 'Lorem ipsum dolor sit amet, consectetur
+
+        adipiscing elit. Ut id tincidunt ex. Nunc <quad material=2 size=100 x=0 y=0
+        width=1 height=1/> in pulvinar nunc, pharetra accumsan nisl.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316488, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: e85924ce3ffd78145a48de454e0f4fc9, type: 2}
+    - target: {fileID: 11485690, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
+      propertyPath: model.description
+      value: Gain 1(C) and 2(S).
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316488, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6eae7b0be11321f4c965c3c2d9c55912, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c5fe11502d64894eacaea2b072a52d3, type: 2}
   m_IsPrefabParent: 0
