@@ -6,13 +6,24 @@ public class Card : MonoBehaviour
     [SerializeField]
     private CardModel model;
     [SerializeField]
-    private TextMesh text;
+    private TextMesh titleText;
+    [SerializeField]
+    private TextMesh descriptionText;
+
+    [SerializeField]
+    private Material[] cardTextures;
+    [SerializeField]
+    private GameObject front;
 
     void Awake()
     {
-        //string afterBreak = GUIHelper.WordWrap(model.Description, 20);
-        //Debug.Log(afterBreak);
-        text.text = model.Description;
+        //initialize card texture data
+        titleText.text = model.Title;
+        descriptionText.text = model.Description;
+        Material toApply = cardTextures[(int)model.Color];
+        MeshRenderer frontRenderer = front.GetComponent<MeshRenderer>();
+
+        frontRenderer.material = toApply;
     }
 
     void Start()
@@ -22,7 +33,7 @@ public class Card : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 }
 
@@ -30,7 +41,7 @@ public class Card : MonoBehaviour
 public class CardModel
 {
     //global
-    enum ColorType { Combat, Conjuring, Healing, Sorcery };
+    public enum ColorType { Combat, Healing, Sorcery, Conjuring };
 
     //local
     [SerializeField]
@@ -41,6 +52,9 @@ public class CardModel
     //private Effect effect;
     [SerializeField]
     private bool isEnchantment;
+
+    [SerializeField]
+    private string title;
     [SerializeField]
     private string description;
 
@@ -52,7 +66,7 @@ public class CardModel
         }
     }
 
-    private ColorType Color
+    public ColorType Color
     {
         get
         {
@@ -68,6 +82,14 @@ public class CardModel
         }
     }
 
+    public string Title
+    {
+        get
+        {
+            return title;
+        }
+    }
+
     public string Description
     {
         get
@@ -75,4 +97,5 @@ public class CardModel
             return description;
         }
     }
+
 }

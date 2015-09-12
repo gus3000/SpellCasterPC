@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &115810
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 400924}
-  - 114: {fileID: 11403750}
-  m_Layer: 0
-  m_Name: TestGui
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &127066
 GameObject:
   m_ObjectHideFlags: 0
@@ -29,7 +13,7 @@ GameObject:
   - 23: {fileID: 2389704}
   m_Layer: 0
   m_Name: Front
-  m_TagString: Untagged
+  m_TagString: Front
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,8 +28,9 @@ GameObject:
   - 4: {fileID: 447352}
   - 23: {fileID: 2316488}
   - 102: {fileID: 10278202}
+  - 114: {fileID: 11487978}
   m_Layer: 0
-  m_Name: New Text
+  m_Name: Legend
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +50,7 @@ GameObject:
   - 114: {fileID: 11485690}
   m_Layer: 0
   m_Name: Card
-  m_TagString: Untagged
+  m_TagString: Card
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83,23 +68,11 @@ GameObject:
   - 23: {fileID: 2371822}
   m_Layer: 0
   m_Name: Back
-  m_TagString: Untagged
+  m_TagString: Back
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &400924
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 115810}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 477468}
-  m_RootOrder: 0
 --- !u!4 &425830
 Transform:
   m_ObjectHideFlags: 1
@@ -133,11 +106,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146318}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -.00999999978}
+  m_LocalPosition: {x: 0, y: -.263000011, z: -.00999999978}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 477468}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!4 &477468
 Transform:
   m_ObjectHideFlags: 1
@@ -148,7 +121,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -.00249999994}
   m_LocalScale: {x: 1, y: 1.39999998, z: 1}
   m_Children:
-  - {fileID: 400924}
   - {fileID: 447352}
   m_Father: {fileID: 432310}
   m_RootOrder: 0
@@ -163,6 +135,8 @@ MeshRenderer:
   m_ReceiveShadows: 1
   m_Materials:
   - {fileID: 2100000, guid: 631dcda350297474597a2bcfcf3e4396, type: 2}
+  - {fileID: 2100000, guid: e85924ce3ffd78145a48de454e0f4fc9, type: 2}
+  - {fileID: 2100000, guid: 6eae7b0be11321f4c965c3c2d9c55912, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -234,7 +208,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 8e139f02967ec25499ad5437d18b0da9, type: 2}
+  - {fileID: 2100000, guid: cab19dfdf5825f44da9da34a6ea2bee7, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -317,12 +291,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 146318}
-  m_Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tincidunt
-    ex. Nunc in pulvinar nunc, pharetra accumsan nisl.
+  m_Text: 'Lorem ipsum dolor sit amet, consectetur
+
+    adipiscing elit. Ut id tincidunt ex. Nunc <quad material=2 size=100 x=0 y=0 width=1
+    height=1/> in pulvinar nunc, pharetra accumsan nisl.'
   m_OffsetZ: 0
-  m_CharacterSize: .00999999978
+  m_CharacterSize: .00499999989
   m_LineSpacing: 1
-  m_Anchor: 1
+  m_Anchor: 4
   m_Alignment: 0
   m_TabSize: 4
   m_FontSize: 100
@@ -332,17 +308,6 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
---- !u!114 &11403750
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 115810}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a17ca9745bba4540ad524efbaacace5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &11485690
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -356,11 +321,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   model:
     id: 1
-    color: 1
+    color: 3
     isEnchantment: 0
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tincidunt
-      ex. Nunc in pulvinar nunc, pharetra accumsan nisl.
+    title: Dummy Card
+    description: Gain 1(C) and 2(S).
   text: {fileID: 10278202}
+  cardTextures:
+  - {fileID: 2100000, guid: f3e0d5268d84a29418f3d447bcdf1e86, type: 2}
+  - {fileID: 2100000, guid: 9cc0c5d17385dba4ebb4f5d5fa769709, type: 2}
+  - {fileID: 2100000, guid: cab19dfdf5825f44da9da34a6ea2bee7, type: 2}
+  - {fileID: 2100000, guid: d3392a0e02fb04a4ba844f2865304cd0, type: 2}
+  front: {fileID: 0}
+--- !u!114 &11487978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ea040be5f53bb4ca6ab7047bd33f0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
